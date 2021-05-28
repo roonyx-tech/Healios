@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		726346B5266099610063F93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726346B4266099610063F93A /* AppDelegate.swift */; };
+		726346B7266099610063F93A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726346B6266099610063F93A /* SceneDelegate.swift */; };
+		726346B9266099610063F93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726346B8266099610063F93A /* ViewController.swift */; };
+		726346BC266099610063F93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726346BA266099610063F93A /* Main.storyboard */; };
+		726346BE266099620063F93A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726346BD266099620063F93A /* Assets.xcassets */; };
+		726346C1266099620063F93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726346BF266099620063F93A /* LaunchScreen.storyboard */; };
+		726346CC266099620063F93A /* HealiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726346CB266099620063F93A /* HealiosTests.swift */; };
+		726346D7266099620063F93A /* HealiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726346D6266099620063F93A /* HealiosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		726346C8266099620063F93A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726346A9266099610063F93A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726346B0266099610063F93A;
+			remoteInfo = Healios;
+		};
+		726346D3266099620063F93A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726346A9266099610063F93A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726346B0266099610063F93A;
+			remoteInfo = Healios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		726346B1266099610063F93A /* Healios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		726346B4266099610063F93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		726346B6266099610063F93A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		726346B8266099610063F93A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		726346BB266099610063F93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		726346BD266099620063F93A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		726346C0266099620063F93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		726346C2266099620063F93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726346C7266099620063F93A /* HealiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		726346CB266099620063F93A /* HealiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealiosTests.swift; sourceTree = "<group>"; };
+		726346CD266099620063F93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726346D2266099620063F93A /* HealiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		726346D6266099620063F93A /* HealiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealiosUITests.swift; sourceTree = "<group>"; };
+		726346D8266099620063F93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		726346AE266099610063F93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726346C4266099620063F93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726346CF266099620063F93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		726346A8266099610063F93A = {
+			isa = PBXGroup;
+			children = (
+				726346B3266099610063F93A /* Healios */,
+				726346CA266099620063F93A /* HealiosTests */,
+				726346D5266099620063F93A /* HealiosUITests */,
+				726346B2266099610063F93A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		726346B2266099610063F93A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				726346B1266099610063F93A /* Healios.app */,
+				726346C7266099620063F93A /* HealiosTests.xctest */,
+				726346D2266099620063F93A /* HealiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		726346B3266099610063F93A /* Healios */ = {
+			isa = PBXGroup;
+			children = (
+				726346B4266099610063F93A /* AppDelegate.swift */,
+				726346B6266099610063F93A /* SceneDelegate.swift */,
+				726346B8266099610063F93A /* ViewController.swift */,
+				726346BA266099610063F93A /* Main.storyboard */,
+				726346BD266099620063F93A /* Assets.xcassets */,
+				726346BF266099620063F93A /* LaunchScreen.storyboard */,
+				726346C2266099620063F93A /* Info.plist */,
+			);
+			path = Healios;
+			sourceTree = "<group>";
+		};
+		726346CA266099620063F93A /* HealiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				726346CB266099620063F93A /* HealiosTests.swift */,
+				726346CD266099620063F93A /* Info.plist */,
+			);
+			path = HealiosTests;
+			sourceTree = "<group>";
+		};
+		726346D5266099620063F93A /* HealiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				726346D6266099620063F93A /* HealiosUITests.swift */,
+				726346D8266099620063F93A /* Info.plist */,
+			);
+			path = HealiosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		726346B0266099610063F93A /* Healios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726346DB266099620063F93A /* Build configuration list for PBXNativeTarget "Healios" */;
+			buildPhases = (
+				726346AD266099610063F93A /* Sources */,
+				726346AE266099610063F93A /* Frameworks */,
+				726346AF266099610063F93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Healios;
+			productName = Healios;
+			productReference = 726346B1266099610063F93A /* Healios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		726346C6266099620063F93A /* HealiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726346DE266099620063F93A /* Build configuration list for PBXNativeTarget "HealiosTests" */;
+			buildPhases = (
+				726346C3266099620063F93A /* Sources */,
+				726346C4266099620063F93A /* Frameworks */,
+				726346C5266099620063F93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726346C9266099620063F93A /* PBXTargetDependency */,
+			);
+			name = HealiosTests;
+			productName = HealiosTests;
+			productReference = 726346C7266099620063F93A /* HealiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		726346D1266099620063F93A /* HealiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726346E1266099620063F93A /* Build configuration list for PBXNativeTarget "HealiosUITests" */;
+			buildPhases = (
+				726346CE266099620063F93A /* Sources */,
+				726346CF266099620063F93A /* Frameworks */,
+				726346D0266099620063F93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726346D4266099620063F93A /* PBXTargetDependency */,
+			);
+			name = HealiosUITests;
+			productName = HealiosUITests;
+			productReference = 726346D2266099620063F93A /* HealiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		726346A9266099610063F93A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					726346B0266099610063F93A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					726346C6266099620063F93A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 726346B0266099610063F93A;
+					};
+					726346D1266099620063F93A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 726346B0266099610063F93A;
+					};
+				};
+			};
+			buildConfigurationList = 726346AC266099610063F93A /* Build configuration list for PBXProject "Healios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 726346A8266099610063F93A;
+			productRefGroup = 726346B2266099610063F93A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				726346B0266099610063F93A /* Healios */,
+				726346C6266099620063F93A /* HealiosTests */,
+				726346D1266099620063F93A /* HealiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		726346AF266099610063F93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726346C1266099620063F93A /* LaunchScreen.storyboard in Resources */,
+				726346BE266099620063F93A /* Assets.xcassets in Resources */,
+				726346BC266099610063F93A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726346C5266099620063F93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726346D0266099620063F93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		726346AD266099610063F93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726346B9266099610063F93A /* ViewController.swift in Sources */,
+				726346B5266099610063F93A /* AppDelegate.swift in Sources */,
+				726346B7266099610063F93A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726346C3266099620063F93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726346CC266099620063F93A /* HealiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726346CE266099620063F93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726346D7266099620063F93A /* HealiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		726346C9266099620063F93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 726346B0266099610063F93A /* Healios */;
+			targetProxy = 726346C8266099620063F93A /* PBXContainerItemProxy */;
+		};
+		726346D4266099620063F93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 726346B0266099610063F93A /* Healios */;
+			targetProxy = 726346D3266099620063F93A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		726346BA266099610063F93A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726346BB266099610063F93A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		726346BF266099620063F93A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726346C0266099620063F93A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		726346D9266099620063F93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		726346DA266099620063F93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		726346DC266099620063F93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = Healios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		726346DD266099620063F93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = Healios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		726346DF266099620063F93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = HealiosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.HealiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Healios.app/Healios";
+			};
+			name = Debug;
+		};
+		726346E0266099620063F93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = HealiosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.HealiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Healios.app/Healios";
+			};
+			name = Release;
+		};
+		726346E2266099620063F93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = HealiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.HealiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Healios;
+			};
+			name = Debug;
+		};
+		726346E3266099620063F93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = HealiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.HealiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Healios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		726346AC266099610063F93A /* Build configuration list for PBXProject "Healios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726346D9266099620063F93A /* Debug */,
+				726346DA266099620063F93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726346DB266099620063F93A /* Build configuration list for PBXNativeTarget "Healios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726346DC266099620063F93A /* Debug */,
+				726346DD266099620063F93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726346DE266099620063F93A /* Build configuration list for PBXNativeTarget "HealiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726346DF266099620063F93A /* Debug */,
+				726346E0266099620063F93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726346E1266099620063F93A /* Build configuration list for PBXNativeTarget "HealiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726346E2266099620063F93A /* Debug */,
+				726346E3266099620063F93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 726346A9266099610063F93A /* Project object */;
+}
