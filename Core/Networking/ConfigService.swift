@@ -32,7 +32,7 @@ final class ConfigServiceImpl: ConfigService {
   }()
 
   lazy var apiUrl: URL = {
-    guard let url = URL(string: "http://jsonplaceholder.typicode.com") else {
+    guard let url = URL(string: "https://api-weshop.smartideagroup.kz") else {
       fatalError("Api URL not correct")
     }
     return url

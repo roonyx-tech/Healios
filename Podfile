@@ -12,6 +12,7 @@ target 'Healios' do
   pod 'RxDataSources', '4.0.1'
   pod 'Kingfisher', '~> 5.12.0'
   pod 'Willow', '~> 6.0'
+  pod 'SnapKit', '~> 5.0.0'
 
   # Pods for Healios
 

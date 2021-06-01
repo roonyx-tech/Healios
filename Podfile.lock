@@ -23,6 +23,7 @@ PODS:
   - RxSwift (5.0.1)
   - RxTest (5.1.2):
     - RxSwift (~> 5)
+  - SnapKit (5.0.1)
   - Swinject (2.7.1)
   - Willow (6.0.0)
 
@@ -35,6 +36,7 @@ DEPENDENCIES:
   - RxDataSources (= 4.0.1)
   - RxSwift (= 5.0.1)
   - RxTest
+  - SnapKit (~> 5.0.0)
   - Swinject (= 2.7.1)
   - Willow (~> 6.0)
 
@@ -50,6 +52,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - RxTest
+    - SnapKit
     - Swinject
     - Willow
 
@@ -64,9 +67,10 @@ SPEC CHECKSUMS:
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   RxTest: 274549b747dca56f47c52c8991ec5cf797ecfe40
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
   Willow: 8efe9bd7bb99b06fe017566848492748b763a0ac
 
-PODFILE CHECKSUM: 5878485888dd34432d387df4c2325b1292894da5
+PODFILE CHECKSUM: c2b19ed0c1e9fd5d2d042cb6bc2ea3ac72be03c9
 
 COCOAPODS: 1.10.1

@@ -7,11 +7,23 @@ final class AppCoordinator: BaseCoordinator {
     }
     
     override func start() {
-        var module = makeHome()
-        module.onElementTapped = { [weak self] postInfo in
-            self?.router.push(self?.makeDetail(postInfo: postInfo))
-        }
+        var module = makeMain()
         router.setRootModule(module)
+    }
+    
+    private func openMain() {
+        let module = makeMain()
+        router.push(module)
+    }
+    
+    func makeAuth() -> AuthModule {
+        let apiService = assembler.resolver.resolve(ApiService.self)!
+        let viewModel = AuthViewModel(apiService: apiService)
+        return AuthViewController(viewModel: viewModel)
+    }
+    
+    func makeMain() -> MainModule {
+        return MainViewContorller()
     }
     
     func makeHome() -> HomeModule {

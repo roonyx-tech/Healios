@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		031FB043EE4E46D5CC153A42 /* Pods_Healios_HealiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6E824616959D922E1494AE /* Pods_Healios_HealiosUITests.framework */; };
+		5545EAED2664A3EF00A64911 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EAEC2664A3EF00A64911 /* AuthView.swift */; };
+		5545EB062664B50600A64911 /* AuthModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB052664B50600A64911 /* AuthModule.swift */; };
+		5545EB0C2664B51D00A64911 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB0B2664B51D00A64911 /* AuthViewController.swift */; };
+		5545EB532664BBAB00A64911 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5545EB4F2664BBAB00A64911 /* PlayfairDisplay-Bold.ttf */; };
+		5545EB542664BBAB00A64911 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5545EB502664BBAB00A64911 /* PlayfairDisplay-Regular.ttf */; };
+		5545EB552664BBAB00A64911 /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5545EB512664BBAB00A64911 /* PlayfairDisplay-SemiBold.ttf */; };
+		5545EB562664BBAB00A64911 /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5545EB522664BBAB00A64911 /* PlayfairDisplay-Medium.ttf */; };
+		5545EB5C2664BC4900A64911 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB5B2664BC4900A64911 /* UIFont.swift */; };
+		5545EB622664CF3B00A64911 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB612664CF3B00A64911 /* AuthViewModel.swift */; };
+		5545EB6B2664CFD400A64911 /* ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB6A2664CFD400A64911 /* ResponseStatus.swift */; };
+		5545EB742664D0A800A64911 /* AuthTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB732664D0A800A64911 /* AuthTarget.swift */; };
+		5545EB7A2664D53C00A64911 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB792664D53C00A64911 /* Encryption.swift */; };
+		5545EB812664D9CE00A64911 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB802664D9CE00A64911 /* MainView.swift */; };
+		5545EB8A2664DA6400A64911 /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB892664DA6400A64911 /* MainModule.swift */; };
+		5545EB932664DA7B00A64911 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB922664DA7B00A64911 /* MainViewController.swift */; };
 		72035F2826609D010055DC6A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72035F2726609D010055DC6A /* Router.swift */; };
 		72035F2D26609D260055DC6A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72035F2C26609D260055DC6A /* Coordinator.swift */; };
 		72035F3126609D310055DC6A /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72035F3026609D310055DC6A /* Presentable.swift */; };
@@ -96,6 +111,21 @@
 		2947CADAF99220FB4448787B /* Pods-Healios-HealiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios-HealiosTests.release.xcconfig"; path = "Target Support Files/Pods-Healios-HealiosTests/Pods-Healios-HealiosTests.release.xcconfig"; sourceTree = "<group>"; };
 		3062184F3E09D5042BB039B5 /* Pods_Healios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Healios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AD3FDE3DC6D90C3C5D5B2A /* Pods-Healios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios.release.xcconfig"; path = "Target Support Files/Pods-Healios/Pods-Healios.release.xcconfig"; sourceTree = "<group>"; };
+		5545EAEC2664A3EF00A64911 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		5545EB052664B50600A64911 /* AuthModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModule.swift; sourceTree = "<group>"; };
+		5545EB0B2664B51D00A64911 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		5545EB4F2664BBAB00A64911 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		5545EB502664BBAB00A64911 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		5545EB512664BBAB00A64911 /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		5545EB522664BBAB00A64911 /* PlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		5545EB5B2664BC4900A64911 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		5545EB612664CF3B00A64911 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		5545EB6A2664CFD400A64911 /* ResponseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseStatus.swift; sourceTree = "<group>"; };
+		5545EB732664D0A800A64911 /* AuthTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTarget.swift; sourceTree = "<group>"; };
+		5545EB792664D53C00A64911 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		5545EB802664D9CE00A64911 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5545EB892664DA6400A64911 /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
+		5545EB922664DA7B00A64911 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		655B5F258A8B1E96F8835E0F /* Pods-HealiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealiosTests.debug.xcconfig"; path = "Target Support Files/Pods-HealiosTests/Pods-HealiosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		668177D66ABC07DE0EC5524C /* Pods-Healios-HealiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios-HealiosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Healios-HealiosUITests/Pods-Healios-HealiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		72035F2726609D010055DC6A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -197,6 +227,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5545EAEA2664A33400A64911 /* AuthFlow */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB722664D09B00A64911 /* AuthTarget */,
+				5545EB692664CFC400A64911 /* Model */,
+				5545EB602664CF2E00A64911 /* ViewModel */,
+				5545EB0A2664B51000A64911 /* Controller */,
+				5545EB042664B4F800A64911 /* Module */,
+				5545EAEB2664A3DA00A64911 /* View */,
+			);
+			path = AuthFlow;
+			sourceTree = "<group>";
+		};
+		5545EAEB2664A3DA00A64911 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5545EAEC2664A3EF00A64911 /* AuthView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5545EB042664B4F800A64911 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB052664B50600A64911 /* AuthModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		5545EB0A2664B51000A64911 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB0B2664B51D00A64911 /* AuthViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5545EB4D2664BAC200A64911 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB782664D52800A64911 /* String */,
+				5545EB5A2664BC3F00A64911 /* Fonts */,
+				5545EB4E2664BAC700A64911 /* Font */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5545EB4E2664BAC700A64911 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB4F2664BBAB00A64911 /* PlayfairDisplay-Bold.ttf */,
+				5545EB522664BBAB00A64911 /* PlayfairDisplay-Medium.ttf */,
+				5545EB502664BBAB00A64911 /* PlayfairDisplay-Regular.ttf */,
+				5545EB512664BBAB00A64911 /* PlayfairDisplay-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		5545EB5A2664BC3F00A64911 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB5B2664BC4900A64911 /* UIFont.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5545EB602664CF2E00A64911 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB612664CF3B00A64911 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5545EB692664CFC400A64911 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB6A2664CFD400A64911 /* ResponseStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5545EB722664D09B00A64911 /* AuthTarget */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB732664D0A800A64911 /* AuthTarget.swift */,
+			);
+			path = AuthTarget;
+			sourceTree = "<group>";
+		};
+		5545EB782664D52800A64911 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB792664D53C00A64911 /* Encryption.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		5545EB7E2664D9BE00A64911 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB912664DA6E00A64911 /* Controller */,
+				5545EB882664DA5B00A64911 /* Module */,
+				5545EB7F2664D9C500A64911 /* View */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		5545EB7F2664D9C500A64911 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB802664D9CE00A64911 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5545EB882664DA5B00A64911 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB892664DA6400A64911 /* MainModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		5545EB912664DA6E00A64911 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5545EB922664DA7B00A64911 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		61C7F2BD9EE670E9E7DE63B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -532,6 +694,9 @@
 		726346B3266099610063F93A /* Healios */ = {
 			isa = PBXGroup;
 			children = (
+				5545EB7E2664D9BE00A64911 /* MainFlow */,
+				5545EB4D2664BAC200A64911 /* Helpers */,
+				5545EAEA2664A33400A64911 /* AuthFlow */,
 				72035FC52660A5100055DC6A /* Flow */,
 				72035FC02660A2D20055DC6A /* AppCoordinator */,
 				726346B4266099610063F93A /* AppDelegate.swift */,
@@ -685,6 +850,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5545EB542664BBAB00A64911 /* PlayfairDisplay-Regular.ttf in Resources */,
+				5545EB532664BBAB00A64911 /* PlayfairDisplay-Bold.ttf in Resources */,
+				5545EB552664BBAB00A64911 /* PlayfairDisplay-SemiBold.ttf in Resources */,
+				5545EB562664BBAB00A64911 /* PlayfairDisplay-Medium.ttf in Resources */,
 				726346C1266099620063F93A /* LaunchScreen.storyboard in Resources */,
 				726346BE266099620063F93A /* Assets.xcassets in Resources */,
 				726346BC266099610063F93A /* Main.storyboard in Resources */,
@@ -835,9 +1004,13 @@
 				72035F8F2660A0380055DC6A /* Result.swift in Sources */,
 				72035F2D26609D260055DC6A /* Coordinator.swift in Sources */,
 				72035F7926609EFF0055DC6A /* Logger.swift in Sources */,
+				5545EB062664B50600A64911 /* AuthModule.swift in Sources */,
 				72035FF32660B39B0055DC6A /* DetailModule.swift in Sources */,
 				72035F6426609E640055DC6A /* ApiServiceAssemblyImpl.swift in Sources */,
+				5545EB0C2664B51D00A64911 /* AuthViewController.swift in Sources */,
 				726346B9266099610063F93A /* ViewController.swift in Sources */,
+				5545EB5C2664BC4900A64911 /* UIFont.swift in Sources */,
+				5545EB812664D9CE00A64911 /* MainView.swift in Sources */,
 				7203600B2660C6450055DC6A /* InMemoryCache.swift in Sources */,
 				72035F4326609D8F0055DC6A /* ViewHolder.swift in Sources */,
 				72035F5426609E130055DC6A /* ConfigService.swift in Sources */,
@@ -846,8 +1019,10 @@
 				720360112660CB5A0055DC6A /* Cache+Disk.swift in Sources */,
 				72035F8A26609F950055DC6A /* DependencyContainer.swift in Sources */,
 				72035F7426609EBC0055DC6A /* ApiTarget.swift in Sources */,
+				5545EAED2664A3EF00A64911 /* AuthView.swift in Sources */,
 				7203600D2660C64F0055DC6A /* DiskCache.swift in Sources */,
 				72035F7D26609F080055DC6A /* LoggerConfigurator.swift in Sources */,
+				5545EB622664CF3B00A64911 /* AuthViewModel.swift in Sources */,
 				72035F4C26609DEE0055DC6A /* HTTPMethod.swift in Sources */,
 				720360062660B9650055DC6A /* UserView.swift in Sources */,
 				72035F8126609F140055DC6A /* SertLombardLogger+HTTP.swift in Sources */,
@@ -860,26 +1035,31 @@
 				72035F8526609F200055DC6A /* EmojiModifier.swift in Sources */,
 				72035F3626609D460055DC6A /* CloseableViewController.swift in Sources */,
 				72035FCF2660A5CB0055DC6A /* Post.swift in Sources */,
+				5545EB6B2664CFD400A64911 /* ResponseStatus.swift in Sources */,
 				72035FC82660A5220055DC6A /* HomemModule.swift in Sources */,
 				72035FB72660A20C0055DC6A /* UIView+Reusable.swift in Sources */,
 				72035FD42660A6520055DC6A /* HomeViewModel.swift in Sources */,
+				5545EB8A2664DA6400A64911 /* MainModule.swift in Sources */,
 				72035F972660A0560055DC6A /* LoadingSequenceConvertible.swift in Sources */,
 				72035FE82660AEF00055DC6A /* Comment.swift in Sources */,
 				72035FBD2660A2AC0055DC6A /* ViewModel.swift in Sources */,
 				72035FA82660A09F0055DC6A /* UIVC+Alert.swift in Sources */,
 				72035F5C26609E2F0055DC6A /* ApiRequest.swift in Sources */,
 				72035F5826609E200055DC6A /* StubApiRequset.swift in Sources */,
+				5545EB932664DA7B00A64911 /* MainViewController.swift in Sources */,
 				72035F9B2660A0610055DC6A /* UIViewController+Error.swift in Sources */,
 				72035FAD2660A1190055DC6A /* InputValidatable.swift in Sources */,
 				72035FD92660A7950055DC6A /* HomeApiTarget.swift in Sources */,
 				72035FE42660AE9D0055DC6A /* User.swift in Sources */,
 				72035F4826609DD80055DC6A /* Requestable.swift in Sources */,
+				5545EB7A2664D53C00A64911 /* Encryption.swift in Sources */,
 				72035F6026609E3F0055DC6A /* RequestRetrierImpl.swift in Sources */,
 				72035F3A26609D520055DC6A /* CoordinatorNavigationController.swift in Sources */,
 				72035FFC2660B4A70055DC6A /* DetailView.swift in Sources */,
 				72035F6C26609EA30055DC6A /* ApiService.swift in Sources */,
 				72035FF72660B3BC0055DC6A /* DetailViewController.swift in Sources */,
 				72035F3126609D310055DC6A /* Presentable.swift in Sources */,
+				5545EB742664D0A800A64911 /* AuthTarget.swift in Sources */,
 				72035F9F2660A0720055DC6A /* Observable+Timer.swift in Sources */,
 				72035F6826609E840055DC6A /* SerlLombardRequestAdapter.swift in Sources */,
 				72035FC22660A2E00055DC6A /* AppCoordinator.swift in Sources */,
@@ -1064,14 +1244,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				DEVELOPMENT_TEAM = 68F942NMT8;
 				INFOPLIST_FILE = Healios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios;
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1085,14 +1265,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				DEVELOPMENT_TEAM = 68F942NMT8;
 				INFOPLIST_FILE = Healios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios;
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
