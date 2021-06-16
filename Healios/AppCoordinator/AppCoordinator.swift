@@ -7,31 +7,37 @@ final class AppCoordinator: BaseCoordinator {
     }
     
     override func start() {
-        var module = makeMain()
+        showMain()
+    }
+    
+    private func showAuth() {
+        var module = makeAuth()
+        module.openMain = { [unowned self] in
+            self.showMain()
+        }
         router.setRootModule(module)
     }
     
-    private func openMain() {
-        let module = makeMain()
-        router.push(module)
+    private func showMain() {
+        var module = makeMain()
+        module.loginTapped = { [unowned self] in
+            self.showAuth()
+        }
+        router.setRootModule(module)
     }
     
     func makeAuth() -> AuthModule {
         let apiService = assembler.resolver.resolve(ApiService.self)!
         let viewModel = AuthViewModel(apiService: apiService)
-        return AuthViewController(viewModel: viewModel)
+        let userSessionStorage = assembler.resolver.resolve(UserSessionStorage.self)!
+        return AuthViewController(viewModel: viewModel, userSessionStorage: userSessionStorage)
     }
     
     func makeMain() -> MainModule {
-        return MainViewContorller()
-    }
-    
-    func makeHome() -> HomeModule {
-        return ViewController()
-    }
-    
-    func makeDetail(postInfo: PostInfo) -> DetailModule {
-        return DetailViewController(postInfo: postInfo)
+        let apiService = assembler.resolver.resolve(ApiService.self)!
+        let viewModel = MainViewModel(apiService: apiService)
+        let userSessionStorage = assembler.resolver.resolve(UserSessionStorage.self)!
+        return MainViewContorller(viewModel: viewModel, userSessionStorage: userSessionStorage)
     }
 }
 

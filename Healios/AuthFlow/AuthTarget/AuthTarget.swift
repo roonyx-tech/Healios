@@ -9,6 +9,7 @@ import Foundation
 
 enum AuthTarget: ApiTarget {
     case login(username: String, password: String)
+    case main
 
     var servicePath: String { "" }
 
@@ -20,8 +21,8 @@ enum AuthTarget: ApiTarget {
         switch self {
         case .login:
             return "/v1/auth/sign-in"
-        default:
-            return ""
+        case .main:
+            return "mobile/site"
         }
     }
 
@@ -33,7 +34,7 @@ enum AuthTarget: ApiTarget {
         switch self {
         case let .login(username, password):
             return ["username": username.toBase64(), "password": password.toBase64()]
-        default:
+        case .main:
             return [:]
         }
         
@@ -47,8 +48,9 @@ enum AuthTarget: ApiTarget {
         switch self {
         case .login:
             return [:]
-        default:
-            return [:]
+        case .main:
+            let token = UserSessionStorage().accessToken
+            return ["authorization": "Bearer \(token ?? "")"]
         }
     }
 }

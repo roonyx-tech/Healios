@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		031FB043EE4E46D5CC153A42 /* Pods_Healios_HealiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6E824616959D922E1494AE /* Pods_Healios_HealiosUITests.framework */; };
+		14463B99581711C3BFBD0005 /* Pods_WeShop_HealiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299B8B40BC9BDBAD53A27724 /* Pods_WeShop_HealiosTests.framework */; };
+		25D083BBB972917E856C8AE6 /* Pods_WeShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C65F668EB642DD531CD5F19 /* Pods_WeShop.framework */; };
 		5545EAED2664A3EF00A64911 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EAEC2664A3EF00A64911 /* AuthView.swift */; };
 		5545EB062664B50600A64911 /* AuthModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB052664B50600A64911 /* AuthModule.swift */; };
 		5545EB0C2664B51D00A64911 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB0B2664B51D00A64911 /* AuthViewController.swift */; };
@@ -23,6 +24,9 @@
 		5545EB812664D9CE00A64911 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB802664D9CE00A64911 /* MainView.swift */; };
 		5545EB8A2664DA6400A64911 /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB892664DA6400A64911 /* MainModule.swift */; };
 		5545EB932664DA7B00A64911 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB922664DA7B00A64911 /* MainViewController.swift */; };
+		55E154D12679CE1100257BAC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E154D02679CE1000257BAC /* MainViewModel.swift */; };
+		55E154DA2679D30500257BAC /* UserSessionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E154D92679D30500257BAC /* UserSessionStorage.swift */; };
+		55E154E02679D36D00257BAC /* KeyChainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E154DF2679D36D00257BAC /* KeyChainStorage.swift */; };
 		72035F2826609D010055DC6A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72035F2726609D010055DC6A /* Router.swift */; };
 		72035F2D26609D260055DC6A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72035F2C26609D260055DC6A /* Coordinator.swift */; };
 		72035F3126609D310055DC6A /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72035F3026609D310055DC6A /* Presentable.swift */; };
@@ -83,8 +87,7 @@
 		726346C1266099620063F93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726346BF266099620063F93A /* LaunchScreen.storyboard */; };
 		726346CC266099620063F93A /* HealiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726346CB266099620063F93A /* HealiosTests.swift */; };
 		726346D7266099620063F93A /* HealiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726346D6266099620063F93A /* HealiosUITests.swift */; };
-		A49BF9B47ECC2224214465F6 /* Pods_Healios_HealiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5EF9A562E56F460D63D9E1 /* Pods_Healios_HealiosTests.framework */; };
-		F134835BD7E59D1209BA1517 /* Pods_Healios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3062184F3E09D5042BB039B5 /* Pods_Healios.framework */; };
+		CF7C4C75D87B5C8953877A50 /* Pods_WeShop_HealiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DB5853C834C34673D2A0B2 /* Pods_WeShop_HealiosUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,11 +109,13 @@
 
 /* Begin PBXFileReference section */
 		096C2A8C22C91D217DF22E18 /* Pods-Healios-HealiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios-HealiosTests.debug.xcconfig"; path = "Target Support Files/Pods-Healios-HealiosTests/Pods-Healios-HealiosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0A5EF9A562E56F460D63D9E1 /* Pods_Healios_HealiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Healios_HealiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C65F668EB642DD531CD5F19 /* Pods_WeShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A48B4417CCFC4B12CA1E59 /* Pods-Healios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios.debug.xcconfig"; path = "Target Support Files/Pods-Healios/Pods-Healios.debug.xcconfig"; sourceTree = "<group>"; };
+		23FB69FAC6B6F7DE98FC70DE /* Pods-WeShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeShop.release.xcconfig"; path = "Target Support Files/Pods-WeShop/Pods-WeShop.release.xcconfig"; sourceTree = "<group>"; };
 		2947CADAF99220FB4448787B /* Pods-Healios-HealiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios-HealiosTests.release.xcconfig"; path = "Target Support Files/Pods-Healios-HealiosTests/Pods-Healios-HealiosTests.release.xcconfig"; sourceTree = "<group>"; };
-		3062184F3E09D5042BB039B5 /* Pods_Healios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Healios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		299B8B40BC9BDBAD53A27724 /* Pods_WeShop_HealiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeShop_HealiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AD3FDE3DC6D90C3C5D5B2A /* Pods-Healios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios.release.xcconfig"; path = "Target Support Files/Pods-Healios/Pods-Healios.release.xcconfig"; sourceTree = "<group>"; };
+		549D2085B9CB505B0580BA77 /* Pods-WeShop-HealiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeShop-HealiosUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeShop-HealiosUITests/Pods-WeShop-HealiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5545EAEC2664A3EF00A64911 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		5545EB052664B50600A64911 /* AuthModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModule.swift; sourceTree = "<group>"; };
 		5545EB0B2664B51D00A64911 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +131,9 @@
 		5545EB802664D9CE00A64911 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5545EB892664DA6400A64911 /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
 		5545EB922664DA7B00A64911 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55E154D02679CE1000257BAC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		55E154D92679D30500257BAC /* UserSessionStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionStorage.swift; sourceTree = "<group>"; };
+		55E154DF2679D36D00257BAC /* KeyChainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainStorage.swift; sourceTree = "<group>"; };
 		655B5F258A8B1E96F8835E0F /* Pods-HealiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealiosTests.debug.xcconfig"; path = "Target Support Files/Pods-HealiosTests/Pods-HealiosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		668177D66ABC07DE0EC5524C /* Pods-Healios-HealiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios-HealiosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Healios-HealiosUITests/Pods-Healios-HealiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		72035F2726609D010055DC6A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -194,7 +202,11 @@
 		726346D2266099620063F93A /* HealiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		726346D6266099620063F93A /* HealiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealiosUITests.swift; sourceTree = "<group>"; };
 		726346D8266099620063F93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B6E824616959D922E1494AE /* Pods_Healios_HealiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Healios_HealiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DB5853C834C34673D2A0B2 /* Pods_WeShop_HealiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeShop_HealiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		925E9D6A925574BC37022DEF /* Pods-WeShop-HealiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeShop-HealiosTests.release.xcconfig"; path = "Target Support Files/Pods-WeShop-HealiosTests/Pods-WeShop-HealiosTests.release.xcconfig"; sourceTree = "<group>"; };
+		97091F1041A91FAEC95BAC5C /* Pods-WeShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeShop.debug.xcconfig"; path = "Target Support Files/Pods-WeShop/Pods-WeShop.debug.xcconfig"; sourceTree = "<group>"; };
+		C5D1D9A910864344593018E7 /* Pods-WeShop-HealiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeShop-HealiosTests.debug.xcconfig"; path = "Target Support Files/Pods-WeShop-HealiosTests/Pods-WeShop-HealiosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C83B8F29AB5443DE202B316F /* Pods-WeShop-HealiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeShop-HealiosUITests.release.xcconfig"; path = "Target Support Files/Pods-WeShop-HealiosUITests/Pods-WeShop-HealiosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB7A9D3E79ABBF4A9590D1C8 /* Pods-HealiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealiosTests.release.xcconfig"; path = "Target Support Files/Pods-HealiosTests/Pods-HealiosTests.release.xcconfig"; sourceTree = "<group>"; };
 		E25D0C1ED228F91606705D8D /* Pods-Healios-HealiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios-HealiosUITests.release.xcconfig"; path = "Target Support Files/Pods-Healios-HealiosUITests/Pods-Healios-HealiosUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,7 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F134835BD7E59D1209BA1517 /* Pods_Healios.framework in Frameworks */,
+				25D083BBB972917E856C8AE6 /* Pods_WeShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +224,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A49BF9B47ECC2224214465F6 /* Pods_Healios_HealiosTests.framework in Frameworks */,
+				14463B99581711C3BFBD0005 /* Pods_WeShop_HealiosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031FB043EE4E46D5CC153A42 /* Pods_Healios_HealiosUITests.framework in Frameworks */,
+				CF7C4C75D87B5C8953877A50 /* Pods_WeShop_HealiosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +340,7 @@
 		5545EB7E2664D9BE00A64911 /* MainFlow */ = {
 			isa = PBXGroup;
 			children = (
+				55E154CF2679CE0400257BAC /* ViewModel */,
 				5545EB912664DA6E00A64911 /* Controller */,
 				5545EB882664DA5B00A64911 /* Module */,
 				5545EB7F2664D9C500A64911 /* View */,
@@ -359,12 +372,36 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		55E154CF2679CE0400257BAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				55E154D02679CE1000257BAC /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		55E154D82679D2F500257BAC /* UserSessionStorage */ = {
+			isa = PBXGroup;
+			children = (
+				55E154D92679D30500257BAC /* UserSessionStorage.swift */,
+			);
+			path = UserSessionStorage;
+			sourceTree = "<group>";
+		};
+		55E154DE2679D35A00257BAC /* KeyChainStorage */ = {
+			isa = PBXGroup;
+			children = (
+				55E154DF2679D36D00257BAC /* KeyChainStorage.swift */,
+			);
+			path = KeyChainStorage;
+			sourceTree = "<group>";
+		};
 		61C7F2BD9EE670E9E7DE63B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3062184F3E09D5042BB039B5 /* Pods_Healios.framework */,
-				7B6E824616959D922E1494AE /* Pods_Healios_HealiosUITests.framework */,
-				0A5EF9A562E56F460D63D9E1 /* Pods_Healios_HealiosTests.framework */,
+				1C65F668EB642DD531CD5F19 /* Pods_WeShop.framework */,
+				299B8B40BC9BDBAD53A27724 /* Pods_WeShop_HealiosTests.framework */,
+				82DB5853C834C34673D2A0B2 /* Pods_WeShop_HealiosUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -372,6 +409,8 @@
 		72035F2426609C960055DC6A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				55E154DE2679D35A00257BAC /* KeyChainStorage */,
+				55E154D82679D2F500257BAC /* UserSessionStorage */,
 				720360092660C63B0055DC6A /* Cache */,
 				72035FBB2660A2A30055DC6A /* ViewModel */,
 				72035FB52660A1FB0055DC6A /* UIView+Reusable */,
@@ -737,6 +776,12 @@
 				CB7A9D3E79ABBF4A9590D1C8 /* Pods-HealiosTests.release.xcconfig */,
 				096C2A8C22C91D217DF22E18 /* Pods-Healios-HealiosTests.debug.xcconfig */,
 				2947CADAF99220FB4448787B /* Pods-Healios-HealiosTests.release.xcconfig */,
+				97091F1041A91FAEC95BAC5C /* Pods-WeShop.debug.xcconfig */,
+				23FB69FAC6B6F7DE98FC70DE /* Pods-WeShop.release.xcconfig */,
+				C5D1D9A910864344593018E7 /* Pods-WeShop-HealiosTests.debug.xcconfig */,
+				925E9D6A925574BC37022DEF /* Pods-WeShop-HealiosTests.release.xcconfig */,
+				549D2085B9CB505B0580BA77 /* Pods-WeShop-HealiosUITests.debug.xcconfig */,
+				C83B8F29AB5443DE202B316F /* Pods-WeShop-HealiosUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -883,15 +928,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Healios-HealiosTests/Pods-Healios-HealiosTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeShop-HealiosTests/Pods-WeShop-HealiosTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Healios-HealiosTests/Pods-Healios-HealiosTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeShop-HealiosTests/Pods-WeShop-HealiosTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Healios-HealiosTests/Pods-Healios-HealiosTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeShop-HealiosTests/Pods-WeShop-HealiosTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		686F8ED9095DD762C30451A0 /* [CP] Embed Pods Frameworks */ = {
@@ -900,15 +945,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Healios-HealiosUITests/Pods-Healios-HealiosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeShop-HealiosUITests/Pods-WeShop-HealiosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Healios-HealiosUITests/Pods-Healios-HealiosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeShop-HealiosUITests/Pods-WeShop-HealiosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Healios-HealiosUITests/Pods-Healios-HealiosUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeShop-HealiosUITests/Pods-WeShop-HealiosUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8AFE832670BB572C522148A1 /* [CP] Check Pods Manifest.lock */ = {
@@ -926,7 +971,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Healios-HealiosTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WeShop-HealiosTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -939,15 +984,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Healios/Pods-Healios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeShop/Pods-WeShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Healios/Pods-Healios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeShop/Pods-WeShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Healios/Pods-Healios-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeShop/Pods-WeShop-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EF8BEBF4C5C75FA224053805 /* [CP] Check Pods Manifest.lock */ = {
@@ -965,7 +1010,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Healios-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WeShop-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -987,7 +1032,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Healios-HealiosUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WeShop-HealiosUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1004,6 +1049,7 @@
 				72035F8F2660A0380055DC6A /* Result.swift in Sources */,
 				72035F2D26609D260055DC6A /* Coordinator.swift in Sources */,
 				72035F7926609EFF0055DC6A /* Logger.swift in Sources */,
+				55E154D12679CE1100257BAC /* MainViewModel.swift in Sources */,
 				5545EB062664B50600A64911 /* AuthModule.swift in Sources */,
 				72035FF32660B39B0055DC6A /* DetailModule.swift in Sources */,
 				72035F6426609E640055DC6A /* ApiServiceAssemblyImpl.swift in Sources */,
@@ -1027,6 +1073,7 @@
 				720360062660B9650055DC6A /* UserView.swift in Sources */,
 				72035F8126609F140055DC6A /* SertLombardLogger+HTTP.swift in Sources */,
 				72035FA32660A07E0055DC6A /* String+Unwrap.swift in Sources */,
+				55E154DA2679D30500257BAC /* UserSessionStorage.swift in Sources */,
 				72035F7026609EB00055DC6A /* ApiRequestable.swift in Sources */,
 				72035F2826609D010055DC6A /* Router.swift in Sources */,
 				720360012660B6040055DC6A /* SubtitleTableViewCell.swift in Sources */,
@@ -1061,6 +1108,7 @@
 				72035F3126609D310055DC6A /* Presentable.swift in Sources */,
 				5545EB742664D0A800A64911 /* AuthTarget.swift in Sources */,
 				72035F9F2660A0720055DC6A /* Observable+Timer.swift in Sources */,
+				55E154E02679D36D00257BAC /* KeyChainStorage.swift in Sources */,
 				72035F6826609E840055DC6A /* SerlLombardRequestAdapter.swift in Sources */,
 				72035FC22660A2E00055DC6A /* AppCoordinator.swift in Sources */,
 				72035FB22660A1410055DC6A /* ProgressView.swift in Sources */,
@@ -1239,7 +1287,7 @@
 		};
 		726346DC266099620063F93A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21A48B4417CCFC4B12CA1E59 /* Pods-Healios.debug.xcconfig */;
+			baseConfigurationReference = 97091F1041A91FAEC95BAC5C /* Pods-WeShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1262,7 +1310,7 @@
 		};
 		726346DD266099620063F93A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49AD3FDE3DC6D90C3C5D5B2A /* Pods-Healios.release.xcconfig */;
+			baseConfigurationReference = 23FB69FAC6B6F7DE98FC70DE /* Pods-WeShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1285,7 +1333,7 @@
 		};
 		726346DF266099620063F93A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 096C2A8C22C91D217DF22E18 /* Pods-Healios-HealiosTests.debug.xcconfig */;
+			baseConfigurationReference = C5D1D9A910864344593018E7 /* Pods-WeShop-HealiosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1308,7 +1356,7 @@
 		};
 		726346E0266099620063F93A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2947CADAF99220FB4448787B /* Pods-Healios-HealiosTests.release.xcconfig */;
+			baseConfigurationReference = 925E9D6A925574BC37022DEF /* Pods-WeShop-HealiosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1331,7 +1379,7 @@
 		};
 		726346E2266099620063F93A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 668177D66ABC07DE0EC5524C /* Pods-Healios-HealiosUITests.debug.xcconfig */;
+			baseConfigurationReference = 549D2085B9CB505B0580BA77 /* Pods-WeShop-HealiosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1352,7 +1400,7 @@
 		};
 		726346E3266099620063F93A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E25D0C1ED228F91606705D8D /* Pods-Healios-HealiosUITests.release.xcconfig */;
+			baseConfigurationReference = C83B8F29AB5443DE202B316F /* Pods-WeShop-HealiosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

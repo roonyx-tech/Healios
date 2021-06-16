@@ -15,9 +15,11 @@ class AuthViewController: UIViewController, ViewHolder, AuthModule {
     
     private let disposeBag = DisposeBag()
     private let viewModel: AuthViewModel
+    private let userSessionStorage: UserSessionStorage
     
-    init(viewModel: AuthViewModel) {
+    init(viewModel: AuthViewModel, userSessionStorage: UserSessionStorage) {
         self.viewModel = viewModel
+        self.userSessionStorage = userSessionStorage
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -44,7 +46,8 @@ class AuthViewController: UIViewController, ViewHolder, AuthModule {
         response.element
             .subscribe(onNext: { [unowned self] response in
                 if response.status == 200 {
-                    openMain?(response.user?.access_token ?? "")
+                    self.userSessionStorage.save(accessToken: response.user?.access_token)
+                    self.openMain?()
                 }
             }).disposed(by: disposeBag)
         

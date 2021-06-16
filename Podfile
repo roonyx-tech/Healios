@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Healios' do
+target 'WeShop' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Swinject', '2.7.1'
@@ -13,7 +13,7 @@ target 'Healios' do
   pod 'Kingfisher', '~> 5.12.0'
   pod 'Willow', '~> 6.0'
   pod 'SnapKit', '~> 5.0.0'
-
+  pod 'KeychainAccess', '4.1.0'
   # Pods for Healios
 
   target 'HealiosTests' do

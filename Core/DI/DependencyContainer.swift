@@ -13,5 +13,8 @@ public final class DependencyContainerAssembly: Assembly {
         container.register(ConfigService.self) { _ in
             ConfigServiceImpl()
         }.inObjectScope(.container)
+        container.register(UserSessionStorage.self) { _ in
+            UserSessionStorage()
+        }.inObjectScope(.container)
     }
 }

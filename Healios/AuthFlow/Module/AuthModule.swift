@@ -7,6 +7,6 @@
 
 import Foundation
 protocol AuthModule: Presentable {
-    typealias OpenMain = (String) -> Void
+    typealias OpenMain = () -> Void
     var openMain: OpenMain? { get set }
 }

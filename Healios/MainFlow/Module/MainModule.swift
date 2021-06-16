@@ -7,5 +7,5 @@
 
 import Foundation
 protocol MainModule: Presentable {
-    
+    var loginTapped: Callback? { get set}
 }
