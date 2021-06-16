@@ -181,7 +181,7 @@
 		7203600C2660C64F0055DC6A /* DiskCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
 		7203600E2660C6980055DC6A /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		720360102660CB5A0055DC6A /* Cache+Disk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cache+Disk.swift"; sourceTree = "<group>"; };
-		726346B1266099610063F93A /* Healios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		726346B1266099610063F93A /* WeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		726346B4266099610063F93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		726346B8266099610063F93A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		726346BB266099610063F93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -684,7 +684,7 @@
 		726346B2266099610063F93A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				726346B1266099610063F93A /* Healios.app */,
+				726346B1266099610063F93A /* WeShop.app */,
 				726346C7266099620063F93A /* HealiosTests.xctest */,
 				726346D2266099620063F93A /* HealiosUITests.xctest */,
 			);
@@ -744,9 +744,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		726346B0266099610063F93A /* Healios */ = {
+		726346B0266099610063F93A /* WeShop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 726346DB266099620063F93A /* Build configuration list for PBXNativeTarget "Healios" */;
+			buildConfigurationList = 726346DB266099620063F93A /* Build configuration list for PBXNativeTarget "WeShop" */;
 			buildPhases = (
 				EF8BEBF4C5C75FA224053805 /* [CP] Check Pods Manifest.lock */,
 				726346AD266099610063F93A /* Sources */,
@@ -758,9 +758,9 @@
 			);
 			dependencies = (
 			);
-			name = Healios;
+			name = WeShop;
 			productName = Healios;
-			productReference = 726346B1266099610063F93A /* Healios.app */;
+			productReference = 726346B1266099610063F93A /* WeShop.app */;
 			productType = "com.apple.product-type.application";
 		};
 		726346C6266099620063F93A /* HealiosTests */ = {
@@ -838,7 +838,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				726346B0266099610063F93A /* Healios */,
+				726346B0266099610063F93A /* WeShop */,
 				726346C6266099620063F93A /* HealiosTests */,
 				726346D1266099620063F93A /* HealiosUITests */,
 			);
@@ -1091,12 +1091,12 @@
 /* Begin PBXTargetDependency section */
 		726346C9266099620063F93A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 726346B0266099610063F93A /* Healios */;
+			target = 726346B0266099610063F93A /* WeShop */;
 			targetProxy = 726346C8266099620063F93A /* PBXContainerItemProxy */;
 		};
 		726346D4266099620063F93A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 726346B0266099610063F93A /* Healios */;
+			target = 726346B0266099610063F93A /* WeShop */;
 			targetProxy = 726346D3266099620063F93A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1243,16 +1243,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 68F942NMT8;
+				DEVELOPMENT_TEAM = V66TRWU4S3;
 				INFOPLIST_FILE = Healios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios1;
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1264,16 +1266,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 68F942NMT8;
+				DEVELOPMENT_TEAM = V66TRWU4S3;
 				INFOPLIST_FILE = Healios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios1;
+				PRODUCT_BUNDLE_IDENTIFIER = cheena.Healios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1379,7 +1383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		726346DB266099620063F93A /* Build configuration list for PBXNativeTarget "Healios" */ = {
+		726346DB266099620063F93A /* Build configuration list for PBXNativeTarget "WeShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				726346DC266099620063F93A /* Debug */,
