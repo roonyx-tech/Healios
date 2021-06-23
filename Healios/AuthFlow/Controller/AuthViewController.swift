@@ -9,6 +9,9 @@ import UIKit
 import RxSwift
 
 class AuthViewController: UIViewController, ViewHolder, AuthModule {
+    var resetPasswordTapped: Callback?
+    var registerTapped: Callback?
+    var backTapped: Callback?
     var openMain: OpenMain?
     
     typealias RootViewType = AuthView
@@ -39,7 +42,7 @@ class AuthViewController: UIViewController, ViewHolder, AuthModule {
     
     private func bindView() {
         let output = viewModel.transform(input: .init(
-                                            username: rootView.usernameTextField.rx.text.asObservable(), password: rootView.passwordTextField.rx.text.asObservable(), loginTapped: rootView.signInButton.rx.tap.asObservable()))
+                                            username: rootView.usernameTextField.phoneTextObservable, password: rootView.passwordTextField.rx.text.asObservable(), loginTapped: rootView.signInButton.rx.tap.asObservable()))
         
         let response = output.response.publish()
         
@@ -57,5 +60,20 @@ class AuthViewController: UIViewController, ViewHolder, AuthModule {
         
         response.connect()
             .disposed(by: disposeBag)
+        
+        rootView.backButton.rx.tap
+            .subscribe(onNext: { [unowned self] in
+                self.backTapped?()
+            }).disposed(by: disposeBag)
+        
+        rootView.registerButton.rx.tap
+            .subscribe(onNext:  { [unowned self] in
+                self.registerTapped?()
+            }).disposed(by: disposeBag)
+        
+        rootView.resetButton.rx.tap
+            .subscribe(onNext: { [unowned self] in
+                self.resetPasswordTapped?()
+            }).disposed(by: disposeBag)
     }
 }

@@ -52,6 +52,14 @@ public extension UIViewController {
         present(controller, animated: true, completion: nil)
     }
     
+    func showSuccessAlert(handler: @escaping () -> Void) {
+        let controller = UIAlertController(title: "", message: "Данные успешно сохранились!", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Закрыть", style: .default) { (alert) in
+            controller.dismiss(animated: true, completion: handler)}
+        controller.addAction(action)
+        present(controller, animated: true, completion: nil)
+    }
+    
     func showSelectNumberToCallAlert(_ numbers: [String], onSelect: @escaping (String) -> Void) {
         let alertControler = UIAlertController()
         numbers.forEach { phoneNumber in

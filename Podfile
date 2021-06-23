@@ -14,6 +14,7 @@ target 'WeShop' do
   pod 'Willow', '~> 6.0'
   pod 'SnapKit', '~> 5.0.0'
   pod 'KeychainAccess', '4.1.0'
+  pod 'InputMask', '6.0.0'
   # Pods for Healios
 
   target 'HealiosTests' do

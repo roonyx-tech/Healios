@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.8.0)
   - Differentiator (4.0.1)
+  - InputMask (6.0.0)
   - KeychainAccess (4.1.0)
   - Kingfisher (5.12.0):
     - Kingfisher/Core (= 5.12.0)
@@ -30,6 +31,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (= 4.8)
+  - InputMask (= 6.0.0)
   - KeychainAccess (= 4.1.0)
   - Kingfisher (~> 5.12.0)
   - RxAlamofire (= 5.1.0)
@@ -46,6 +48,7 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - Differentiator
+    - InputMask
     - KeychainAccess
     - Kingfisher
     - RxAlamofire
@@ -62,6 +65,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  InputMask: f340bdc905a4c4f377e44d865f129f752ac2383d
   KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
   Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
   RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
@@ -75,6 +79,6 @@ SPEC CHECKSUMS:
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
   Willow: 8efe9bd7bb99b06fe017566848492748b763a0ac
 
-PODFILE CHECKSUM: b3ffb87fe20b161d21713be4cfd82522d976b1e5
+PODFILE CHECKSUM: 86b58d2029026cb93e3b59e2643e98b4090f8c23
 
 COCOAPODS: 1.10.1

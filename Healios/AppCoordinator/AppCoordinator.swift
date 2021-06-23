@@ -2,8 +2,11 @@ import Swinject
 import RxSwift
 
 final class AppCoordinator: BaseCoordinator {
-    override init(router: Router) {
-        super.init(router: router)
+    private let coordinatorFactory: AppCoordinatorFactory
+    
+    override init(router: Router, container: DependencyContainer) {
+        coordinatorFactory = AppCoordinatorFactory(container: container)
+        super.init(router: router, container: container)
     }
     
     override func start() {
@@ -11,33 +14,47 @@ final class AppCoordinator: BaseCoordinator {
     }
     
     private func showAuth() {
-        var module = makeAuth()
+        var module = coordinatorFactory.makeAuth()
         module.openMain = { [unowned self] in
             self.showMain()
+        }
+        module.backTapped = { [unowned self] in
+            self.showMain()
+        }
+        module.registerTapped = { [unowned self] in
+            self.showRegister()
+        }
+        module.resetPasswordTapped = { [unowned self] in
+            self.showResetPassword()
         }
         router.setRootModule(module)
     }
     
     private func showMain() {
-        var module = makeMain()
+        var module = coordinatorFactory.makeMain()
         module.loginTapped = { [unowned self] in
             self.showAuth()
         }
         router.setRootModule(module)
     }
     
-    func makeAuth() -> AuthModule {
-        let apiService = assembler.resolver.resolve(ApiService.self)!
-        let viewModel = AuthViewModel(apiService: apiService)
-        let userSessionStorage = assembler.resolver.resolve(UserSessionStorage.self)!
-        return AuthViewController(viewModel: viewModel, userSessionStorage: userSessionStorage)
+    private func showRegister() {
+        var module = coordinatorFactory.makeRegister()
+        module.backTapped = { [unowned self] in
+            self.showMain()
+        }
+        module.registerTapped = { [unowned self] in
+            self.showMain()
+        }
+        router.push(module)
     }
     
-    func makeMain() -> MainModule {
-        let apiService = assembler.resolver.resolve(ApiService.self)!
-        let viewModel = MainViewModel(apiService: apiService)
-        let userSessionStorage = assembler.resolver.resolve(UserSessionStorage.self)!
-        return MainViewContorller(viewModel: viewModel, userSessionStorage: userSessionStorage)
+    private func showResetPassword() {
+        var module = coordinatorFactory.makeResetPassword()
+        module.saved =  { [unowned self] in
+            self.showAuth()
+        }
+        router.push(module)
     }
 }
 

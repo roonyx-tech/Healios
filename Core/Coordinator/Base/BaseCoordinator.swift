@@ -3,9 +3,11 @@ import UIKit
 open class BaseCoordinator: Coordinator {
     public private(set) var childCoordinators: [Coordinator] = []
     public let router: Router
+    let container: DependencyContainer
 
-    init(router: Router) {
+    init(router: Router, container: DependencyContainer) {
         self.router = router
+        self.container = container
     }
 
     open func start() {}

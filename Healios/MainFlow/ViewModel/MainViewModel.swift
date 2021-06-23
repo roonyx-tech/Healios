@@ -13,7 +13,7 @@ final class MainViewModel: ViewModel {
     }
     
     struct Output {
-        let res: Observable<LoadingSequence<ResponseStatus>>
+        let res: Observable<LoadingSequence<String>>
     }
     
     private let apiService: ApiService
@@ -26,7 +26,7 @@ final class MainViewModel: ViewModel {
         let res = input.viewDidLoad
             .flatMap { [unowned self] in
                 return apiService.makeRequest(to: AuthTarget.main)
-                    .result(ResponseStatus.self)
+                    .result(String.self)
                     .asLoadingSequence()
             }.share()
         return .init(res: res)

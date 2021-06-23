@@ -9,6 +9,7 @@ public protocol ApiTarget {
   var parameters: [String: Any]? { get }
   var headers: [String: String]? { get }
   var stubData: Any { get }
+  var mainUrl: String? { get }
 }
 
 public enum ApiVersion {
@@ -34,6 +35,14 @@ public extension ApiTarget {
     headers["appver"] = "1.0.0"
     return headers
   }
+    
+    var defaultMainUrl: String {
+        return "https://api-weshop.smartideagroup.kz"
+    }
+    
+    var mainUrl: String? {
+        return defaultMainUrl
+    }
 
   var headers: [String: String]? {
     return defaultHeaders

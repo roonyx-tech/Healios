@@ -16,6 +16,7 @@ class MainViewContorller: UIViewController, ViewHolder, MainModule, WKNavigation
     private let disposeBag = DisposeBag()
     private let viewModel: MainViewModel
     private let userSessionStorage: UserSessionStorage
+    private var urlrequestCurrent: URLRequest?
     
     init(viewModel: MainViewModel, userSessionStorage: UserSessionStorage) {
         self.viewModel = viewModel
@@ -33,11 +34,9 @@ class MainViewContorller: UIViewController, ViewHolder, MainModule, WKNavigation
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if userSessionStorage.accessToken == nil {
-            rootView.webView.load(URLRequest(url: URL(string: "http://weshop.smartideagroup.kz")!))
-        } else {
-            bindView()
-        }
+        let url = URL(string: "https://weshop.smartideagroup.kz")
+        let request = URLRequest(url: url!)
+        rootView.webView.load(request)
         rootView.webView.navigationDelegate = self
     }
     
@@ -51,39 +50,37 @@ class MainViewContorller: UIViewController, ViewHolder, MainModule, WKNavigation
         navigationController?.navigationBar.isHidden = false
     }
     
-    private func bindView() {
-        let output = viewModel.transform(input: .init(viewDidLoad: .just(())))
-        
-        let res = output.res.publish()
-        
-        res.element
-            .subscribe(onNext: { [unowned self] res in
-                
-            }).disposed(by: disposeBag)
-        
-        res.errors
-            .bind(to: rx.error)
-            .disposed(by: disposeBag)
-        
-        res.connect()
-            .disposed(by: disposeBag)
-    }
-    
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-        guard navigationAction.request.isHttpLink else {
-            decisionHandler(.allow)
-            let currentURL = navigationAction.request.url?.absoluteString
-            if currentURL == "http://weshop.smartideagroup.kz/auth/login" {
-                loginTapped?()
-            }
-            return
+        print("WEB decidePolicyFor navigationAction: \(navigationAction)")
+        var token = userSessionStorage.accessToken
+        let currentURL = navigationAction.request.url?.absoluteString
+        if currentURL == "https://weshop.smartideagroup.kz/auth/login" && token == nil {
+            loginTapped?()
         }
+        if currentURL == "http://weshop.smartideagroup.kz/site/logout" || currentURL == "https://weshop.smartideagroup.kz/site/logout" {
+            userSessionStorage.accessToken = nil
+            loginTapped?()
+        }
+        if let currentrequest = self.urlrequestCurrent {
+            print("currentrequest: \(currentrequest), navigationAction.request: \(navigationAction.request)")
+            if currentrequest == navigationAction.request {
+                self.urlrequestCurrent = nil
+                decisionHandler(.allow)
+                return
+            }
+        }
+
+        decisionHandler(.cancel)
+        
+        if (currentURL == "http://weshop.smartideagroup.kz/cabinet" || currentURL == "https://weshop.smartideagroup.kz/cabinet")  && token == nil {
+            loginTapped?()
+        }
+        var customRequest = navigationAction.request
+        if token != nil {
+            customRequest.setValue("Bearer \(token ?? "")", forHTTPHeaderField: "Authorization")
+        }
+        self.urlrequestCurrent = customRequest
+        webView.load(customRequest)
     }
     
-}
-
-extension URLRequest {
-    var isHttpLink: Bool {
-        return self.url?.scheme?.contains("http://weshop.smartideagroup.kz/auth/login") ?? false
-    }
 }

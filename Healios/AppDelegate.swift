@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             fatalError("rootViewController must be CoordinatorNavigationController")
         }
         
-        appCoordinator = AppCoordinator(router: Router(rootController: rootController))
+        appCoordinator = AppCoordinator(router: Router(rootController: rootController), container: assembler.resolver)
         appCoordinator?.start()
     }
 }

@@ -9,7 +9,7 @@ import RxSwift
 
 final class AuthViewModel: ViewModel {
     struct Input {
-        let username: Observable<String?>
+        let username: Observable<String>
         let password: Observable<String?>
         let loginTapped: Observable<Void>
     }
@@ -28,7 +28,7 @@ final class AuthViewModel: ViewModel {
         let response = input.loginTapped
             .withLatestFrom(Observable.combineLatest(input.username, input.password))
             .flatMap { [unowned self] username, password in
-                self.apiService.makeRequest(to: AuthTarget.login(username: username ?? "", password: password ?? ""))
+                self.apiService.makeRequest(to: AuthTarget.login(username: "7\(username )", password: password ?? ""))
                     .result(ResponseStatus.self)
                     .asLoadingSequence()
             }.share()

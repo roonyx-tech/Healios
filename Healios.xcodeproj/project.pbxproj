@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		14463B99581711C3BFBD0005 /* Pods_WeShop_HealiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299B8B40BC9BDBAD53A27724 /* Pods_WeShop_HealiosTests.framework */; };
 		25D083BBB972917E856C8AE6 /* Pods_WeShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C65F668EB642DD531CD5F19 /* Pods_WeShop.framework */; };
+		550419B82680556B002ACBEF /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550419B72680556B002ACBEF /* RegisterViewModel.swift */; };
+		550419BE26805D12002ACBEF /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550419BD26805D12002ACBEF /* ResetPasswordViewModel.swift */; };
 		5545EAED2664A3EF00A64911 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EAEC2664A3EF00A64911 /* AuthView.swift */; };
 		5545EB062664B50600A64911 /* AuthModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB052664B50600A64911 /* AuthModule.swift */; };
 		5545EB0C2664B51D00A64911 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB0B2664B51D00A64911 /* AuthViewController.swift */; };
@@ -24,6 +26,16 @@
 		5545EB812664D9CE00A64911 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB802664D9CE00A64911 /* MainView.swift */; };
 		5545EB8A2664DA6400A64911 /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB892664DA6400A64911 /* MainModule.swift */; };
 		5545EB932664DA7B00A64911 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545EB922664DA7B00A64911 /* MainViewController.swift */; };
+		55A2920126819F46007136C3 /* PhoneNumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A2920026819F46007136C3 /* PhoneNumberTextField.swift */; };
+		55A2921E26819FA6007136C3 /* RegularTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A2921D26819FA6007136C3 /* RegularTextField.swift */; };
+		55A2922326819FD9007136C3 /* RegularTextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A2922226819FD9007136C3 /* RegularTextFieldState.swift */; };
+		55D25B56267C540A008967C2 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25B55267C540A008967C2 /* RegisterView.swift */; };
+		55D25B5F267C57A4008967C2 /* RegisterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25B5E267C57A4008967C2 /* RegisterModule.swift */; };
+		55D25B68267C57BE008967C2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25B67267C57BE008967C2 /* RegisterViewController.swift */; };
+		55D25B71267C5850008967C2 /* AppCoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25B70267C5850008967C2 /* AppCoordinatorFactory.swift */; };
+		55D25B78267C6678008967C2 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25B77267C6678008967C2 /* ResetPasswordView.swift */; };
+		55D25B7E267C7237008967C2 /* ResetPasswordModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25B7D267C7237008967C2 /* ResetPasswordModule.swift */; };
+		55D25B84267C7250008967C2 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D25B83267C7250008967C2 /* ResetPasswordViewController.swift */; };
 		55E154D12679CE1100257BAC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E154D02679CE1000257BAC /* MainViewModel.swift */; };
 		55E154DA2679D30500257BAC /* UserSessionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E154D92679D30500257BAC /* UserSessionStorage.swift */; };
 		55E154E02679D36D00257BAC /* KeyChainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E154DF2679D36D00257BAC /* KeyChainStorage.swift */; };
@@ -116,6 +128,8 @@
 		299B8B40BC9BDBAD53A27724 /* Pods_WeShop_HealiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeShop_HealiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AD3FDE3DC6D90C3C5D5B2A /* Pods-Healios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healios.release.xcconfig"; path = "Target Support Files/Pods-Healios/Pods-Healios.release.xcconfig"; sourceTree = "<group>"; };
 		549D2085B9CB505B0580BA77 /* Pods-WeShop-HealiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeShop-HealiosUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeShop-HealiosUITests/Pods-WeShop-HealiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		550419B72680556B002ACBEF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		550419BD26805D12002ACBEF /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
 		5545EAEC2664A3EF00A64911 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		5545EB052664B50600A64911 /* AuthModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModule.swift; sourceTree = "<group>"; };
 		5545EB0B2664B51D00A64911 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +145,16 @@
 		5545EB802664D9CE00A64911 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5545EB892664DA6400A64911 /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
 		5545EB922664DA7B00A64911 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55A2920026819F46007136C3 /* PhoneNumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextField.swift; sourceTree = "<group>"; };
+		55A2921D26819FA6007136C3 /* RegularTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularTextField.swift; sourceTree = "<group>"; };
+		55A2922226819FD9007136C3 /* RegularTextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularTextFieldState.swift; sourceTree = "<group>"; };
+		55D25B55267C540A008967C2 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		55D25B5E267C57A4008967C2 /* RegisterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModule.swift; sourceTree = "<group>"; };
+		55D25B67267C57BE008967C2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		55D25B70267C5850008967C2 /* AppCoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorFactory.swift; sourceTree = "<group>"; };
+		55D25B77267C6678008967C2 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		55D25B7D267C7237008967C2 /* ResetPasswordModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordModule.swift; sourceTree = "<group>"; };
+		55D25B83267C7250008967C2 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		55E154D02679CE1000257BAC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		55E154D92679D30500257BAC /* UserSessionStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionStorage.swift; sourceTree = "<group>"; };
 		55E154DF2679D36D00257BAC /* KeyChainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainStorage.swift; sourceTree = "<group>"; };
@@ -239,6 +263,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		550419B62680555F002ACBEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				550419B72680556B002ACBEF /* RegisterViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		550419BC26805D04002ACBEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				550419BD26805D12002ACBEF /* ResetPasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		5545EAEA2664A33400A64911 /* AuthFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +408,94 @@
 			isa = PBXGroup;
 			children = (
 				5545EB922664DA7B00A64911 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55A291FE26819F31007136C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55A291FF26819F36007136C3 /* TextField */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55A291FF26819F36007136C3 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				55A2920026819F46007136C3 /* PhoneNumberTextField.swift */,
+				55A2921D26819FA6007136C3 /* RegularTextField.swift */,
+				55A2922226819FD9007136C3 /* RegularTextFieldState.swift */,
+			);
+			name = TextField;
+			sourceTree = "<group>";
+		};
+		55D25B53267C53F1008967C2 /* RegisterFlow */ = {
+			isa = PBXGroup;
+			children = (
+				550419B62680555F002ACBEF /* ViewModel */,
+				55D25B66267C57AD008967C2 /* Controller */,
+				55D25B5D267C579A008967C2 /* Module */,
+				55D25B54267C53FB008967C2 /* View */,
+			);
+			path = RegisterFlow;
+			sourceTree = "<group>";
+		};
+		55D25B54267C53FB008967C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55D25B55267C540A008967C2 /* RegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55D25B5D267C579A008967C2 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				55D25B5E267C57A4008967C2 /* RegisterModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		55D25B66267C57AD008967C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55D25B67267C57BE008967C2 /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55D25B75267C6661008967C2 /* ResetPasswordFlow */ = {
+			isa = PBXGroup;
+			children = (
+				550419BC26805D04002ACBEF /* ViewModel */,
+				55D25B82267C7241008967C2 /* Controller */,
+				55D25B7C267C722B008967C2 /* Module */,
+				55D25B76267C666D008967C2 /* View */,
+			);
+			path = ResetPasswordFlow;
+			sourceTree = "<group>";
+		};
+		55D25B76267C666D008967C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55D25B77267C6678008967C2 /* ResetPasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55D25B7C267C722B008967C2 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				55D25B7D267C7237008967C2 /* ResetPasswordModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		55D25B82267C7241008967C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55D25B83267C7250008967C2 /* ResetPasswordViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -567,6 +695,7 @@
 			isa = PBXGroup;
 			children = (
 				72035FC12660A2E00055DC6A /* AppCoordinator.swift */,
+				55D25B70267C5850008967C2 /* AppCoordinatorFactory.swift */,
 			);
 			path = AppCoordinator;
 			sourceTree = "<group>";
@@ -710,6 +839,7 @@
 		726346A8266099610063F93A = {
 			isa = PBXGroup;
 			children = (
+				55A291FE26819F31007136C3 /* View */,
 				72035F2426609C960055DC6A /* Core */,
 				726346B3266099610063F93A /* Healios */,
 				726346CA266099620063F93A /* HealiosTests */,
@@ -733,6 +863,8 @@
 		726346B3266099610063F93A /* Healios */ = {
 			isa = PBXGroup;
 			children = (
+				55D25B75267C6661008967C2 /* ResetPasswordFlow */,
+				55D25B53267C53F1008967C2 /* RegisterFlow */,
 				5545EB7E2664D9BE00A64911 /* MainFlow */,
 				5545EB4D2664BAC200A64911 /* Helpers */,
 				5545EAEA2664A33400A64911 /* AuthFlow */,
@@ -1046,8 +1178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D25B5F267C57A4008967C2 /* RegisterModule.swift in Sources */,
 				72035F8F2660A0380055DC6A /* Result.swift in Sources */,
 				72035F2D26609D260055DC6A /* Coordinator.swift in Sources */,
+				55D25B78267C6678008967C2 /* ResetPasswordView.swift in Sources */,
 				72035F7926609EFF0055DC6A /* Logger.swift in Sources */,
 				55E154D12679CE1100257BAC /* MainViewModel.swift in Sources */,
 				5545EB062664B50600A64911 /* AuthModule.swift in Sources */,
@@ -1055,6 +1189,8 @@
 				72035F6426609E640055DC6A /* ApiServiceAssemblyImpl.swift in Sources */,
 				5545EB0C2664B51D00A64911 /* AuthViewController.swift in Sources */,
 				726346B9266099610063F93A /* ViewController.swift in Sources */,
+				55A2920126819F46007136C3 /* PhoneNumberTextField.swift in Sources */,
+				55A2921E26819FA6007136C3 /* RegularTextField.swift in Sources */,
 				5545EB5C2664BC4900A64911 /* UIFont.swift in Sources */,
 				5545EB812664D9CE00A64911 /* MainView.swift in Sources */,
 				7203600B2660C6450055DC6A /* InMemoryCache.swift in Sources */,
@@ -1072,12 +1208,17 @@
 				72035F4C26609DEE0055DC6A /* HTTPMethod.swift in Sources */,
 				720360062660B9650055DC6A /* UserView.swift in Sources */,
 				72035F8126609F140055DC6A /* SertLombardLogger+HTTP.swift in Sources */,
+				55D25B68267C57BE008967C2 /* RegisterViewController.swift in Sources */,
+				55D25B7E267C7237008967C2 /* ResetPasswordModule.swift in Sources */,
 				72035FA32660A07E0055DC6A /* String+Unwrap.swift in Sources */,
 				55E154DA2679D30500257BAC /* UserSessionStorage.swift in Sources */,
 				72035F7026609EB00055DC6A /* ApiRequestable.swift in Sources */,
 				72035F2826609D010055DC6A /* Router.swift in Sources */,
 				720360012660B6040055DC6A /* SubtitleTableViewCell.swift in Sources */,
+				550419BE26805D12002ACBEF /* ResetPasswordViewModel.swift in Sources */,
+				55D25B56267C540A008967C2 /* RegisterView.swift in Sources */,
 				72035FDE2660A8E80055DC6A /* HomeView.swift in Sources */,
+				550419B82680556B002ACBEF /* RegisterViewModel.swift in Sources */,
 				72035F5026609E040055DC6A /* ApiError.swift in Sources */,
 				72035F8526609F200055DC6A /* EmojiModifier.swift in Sources */,
 				72035F3626609D460055DC6A /* CloseableViewController.swift in Sources */,
@@ -1092,6 +1233,7 @@
 				72035FBD2660A2AC0055DC6A /* ViewModel.swift in Sources */,
 				72035FA82660A09F0055DC6A /* UIVC+Alert.swift in Sources */,
 				72035F5C26609E2F0055DC6A /* ApiRequest.swift in Sources */,
+				55D25B84267C7250008967C2 /* ResetPasswordViewController.swift in Sources */,
 				72035F5826609E200055DC6A /* StubApiRequset.swift in Sources */,
 				5545EB932664DA7B00A64911 /* MainViewController.swift in Sources */,
 				72035F9B2660A0610055DC6A /* UIViewController+Error.swift in Sources */,
@@ -1103,6 +1245,7 @@
 				72035F6026609E3F0055DC6A /* RequestRetrierImpl.swift in Sources */,
 				72035F3A26609D520055DC6A /* CoordinatorNavigationController.swift in Sources */,
 				72035FFC2660B4A70055DC6A /* DetailView.swift in Sources */,
+				55D25B71267C5850008967C2 /* AppCoordinatorFactory.swift in Sources */,
 				72035F6C26609EA30055DC6A /* ApiService.swift in Sources */,
 				72035FF72660B3BC0055DC6A /* DetailViewController.swift in Sources */,
 				72035F3126609D310055DC6A /* Presentable.swift in Sources */,
@@ -1111,6 +1254,7 @@
 				55E154E02679D36D00257BAC /* KeyChainStorage.swift in Sources */,
 				72035F6826609E840055DC6A /* SerlLombardRequestAdapter.swift in Sources */,
 				72035FC22660A2E00055DC6A /* AppCoordinator.swift in Sources */,
+				55A2922326819FD9007136C3 /* RegularTextFieldState.swift in Sources */,
 				72035FB22660A1410055DC6A /* ProgressView.swift in Sources */,
 				726346B5266099610063F93A /* AppDelegate.swift in Sources */,
 				72035F3E26609D600055DC6A /* BaseCoordinator.swift in Sources */,
