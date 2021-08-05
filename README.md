@@ -28,8 +28,7 @@ Networking realized by specific framework and covered by classes and extension t
 Used Framework: Alamofire, RxAlamofire 
 
 ## Target where configurated endPoint and base parametres to make Request
-'''
-
+```
 enum HomeApiTarget: ApiTarget {
 
     case posts
@@ -67,9 +66,9 @@ enum HomeApiTarget: ApiTarget {
         return [:]
     }
     }
-'''
+```
 ## Usage of Request Target
-'''
+```
     private func loadUsers() -> Observable<[User]> {
         return apiService.makeRequest(to: HomeApiTarget.users)
             .result([User].self)
@@ -77,7 +76,8 @@ enum HomeApiTarget: ApiTarget {
                 try? self?.usersCache.saveToDisk(name: HomeViewModel.usersCacheKey, value: result)
             })
     }
-'''
+```
+
 ## Architecture
 The main Architure of this project is MVVM which adapted to Redux Architecture system, where View Model waits specific Input to reproduce specific Output
 
@@ -86,7 +86,7 @@ For data store uses caching of model, to reuse it , without any network request,
 
 ## Navigation
 Navigation in the project realized by Coordinator pattern , which navigate between Presentable 
-'''
+```
 final class AppCoordinator: BaseCoordinator {
     override init(router: Router) {
         super.init(router: router)
@@ -108,13 +108,13 @@ final class AppCoordinator: BaseCoordinator {
         return DetailViewController(postInfo: postInfo)
     }
 }
-'''
+```
 ## Views and Constraints 
 Views created by autolayout without using of constructors
 
 ## How to set rootView
 View holder it's protocol where view of Controller replaced by specific UIView
-'''
+```
 import UIKit
 
 public protocol ViewHolder: AnyObject {
@@ -130,12 +130,11 @@ public extension ViewHolder where Self: UIViewController {
     return rootView
   }
  }
-'''
+```
 
 ## Usage of ViewHolder 
 
-'''
-
+```
     class ViewController: UIViewController, ViewHolder { 
     typealias RootViewType = HomeView
     
@@ -143,7 +142,7 @@ public extension ViewHolder where Self: UIViewController {
         view = HomeView()
     }
     }
-'''
+```
 
 ## License
 [MIT](https://github.com/roonyx-tech/Healios/blob/main/LICENSE)
