@@ -129,13 +129,14 @@ public extension ViewHolder where Self: UIViewController {
     }
     return rootView
   }
-}
+ }
 '''
 
 ## Usage of ViewHolder 
 
 '''
-class ViewController: UIViewController, ViewHolder {
+
+    class ViewController: UIViewController, ViewHolder { 
     typealias RootViewType = HomeView
     
     override func loadView() {
